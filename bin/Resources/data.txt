@@ -1,0 +1,3 @@
+animals, Lion, Zebra, Elephant, Bird, tiger, Panda, Komodo, Dragon, Dog
+sports, Basketball, Soccer, Football, Badminton, Volleyball, Golf
+fruits, Banana, Orange, Apple, Strwaberry, Mango, Tomato
