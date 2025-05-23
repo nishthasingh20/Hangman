@@ -1,13 +1,17 @@
 import javax.swing.*;
 
 public class Hangman extends JFrame {
-    private final WordDB wordDB;
 
     //counting incorrect guesses:
     private int incorrectGuesses;
 
     //store challenge:
     private String[] wordChallenge;
+
+    private final WordDB wordDB;
+
+    //JLablel : a component for displaying non-interactive text or images
+    private JLabel hangmanImage;
 
     public Hangman() {
         super("Hangman Game (using JAVA)");
@@ -26,6 +30,7 @@ public class Hangman extends JFrame {
     }
 
     private void addGuiComponents() {
-        
+        //hangman image:
+        hangmanImage = CustomTools.loadImage();
     }
 }
